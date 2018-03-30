@@ -57,7 +57,7 @@ public class SeleniumChrome extends Exception {
 				count++;
 				
 				if(count > endNum)
-					throw new Exception("COUNT REACHED " + (count + endNum));
+					throw new Exception("COUNT REACHED " + (endNum));
 				for(int i = 1; i < newTextLine.length; i++) {
 					curTextLine = newTextLine[i].split("\\s+"); 
 					if(i != 10)
@@ -89,6 +89,6 @@ public class SeleniumChrome extends Exception {
 	}
 
 	public static void main(String[] args) throws Exception {
-		runScript(401, 400);
+		runScript(801, 200);
 	}	
 }
