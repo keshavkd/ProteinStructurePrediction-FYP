@@ -43,6 +43,8 @@ Have WindowBuilder installed from the Eclipse MarketPlace.
 
 Import FYPGUI onto **Eclipse**.
 
+Remember to change the _theDirectory_ variable to the corresponding directory to where you've placed the _"Python Classifiers" folder.
+
 Run **__"ControlPane.java"__** for the GUI Window.
 
 Paste a protein sequence __(Length: 20 to 1231)__ and click either __Predict__ or __Predict All__ to get results.
