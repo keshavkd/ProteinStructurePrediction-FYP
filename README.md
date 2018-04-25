@@ -3,6 +3,7 @@
 ## SHQ and PDBParallel
 
 Save both the folders into your eclipse workspace directory. 
+
 Also copy "pdb_cleansed.csv" from the Drive folder if you want to run any cleaning operations.
 
 Remember to have Chrome installed.
@@ -34,10 +35,14 @@ Paste a protein sequence __(Length: 20 to 1231)__ and click either __Predict__ o
 Install your preferred version of Python __(Tested on Python 2.7)__
 Run these commands from the __command prompt__
 > pip install gensim
+
 > pip install scipy
+
 > pip install sklearn
 
 Run these commands from the __command prompt__ for the classification information such as **Accuracy**, **Precision** and **Confusion Matrix** and also **Graphs**
 > pip install pandas
+
 > pip install matplotlib
+
 > pip install scikit-plot
