@@ -23,7 +23,7 @@ protected static String cDriverPath	= "C:\\Users\\Crytek\\eclipse-workspace\\shq
 ```
 Change the runScript parameters in the main function for other sequences.
 
-> **_runScript(401, 400);_*
+> *_runScript(401, 400);_*
 
 Initial parameter for the Sequence Number, the second parameter for the number of sequences to be processed.
 
