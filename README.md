@@ -4,7 +4,7 @@
 
 Save both the folders into your eclipse workspace directory. 
 
-Also copy _"pdb_cleansed.csv"_ from the Drive folder if you want to run any cleaning operations.
+Also copy **_"pdb_cleansed.csv"_** from the Drive folder if you want to run any cleaning operations.
 
 Remember to have Chrome installed.
 
@@ -13,7 +13,7 @@ Only works on Windows atm.
 Will have to change the chromedriver file if used on linux.
 
 Driver found here:
-https://chromedriver.storage.googleapis.com/index.html?path=2.37/
+> https://chromedriver.storage.googleapis.com/index.html?path=2.37/
 
 ### SeleniumChrome.java alterations:
 
@@ -23,7 +23,7 @@ protected static String cDriverPath	= "C:\\Users\\Crytek\\eclipse-workspace\\shq
 ```
 Change the runScript parameters in the main function for other sequences.
 
-__runScript(401, 400);__
+> **_runScript(401, 400);_*
 
 Initial parameter for the Sequence Number, the second parameter for the number of sequences to be processed.
 
@@ -39,7 +39,7 @@ Remember to change the **_theDirectory_** variable to the corresponding director
 
 Run **_"ControlPane.java"_** for the GUI Window.
 
-Paste a protein sequence __(Length: 20 to 1231)__ and click either __Predict__ or __Predict All__ to get results.
+Paste a protein sequence _(Length: 20 to 1231)_ and click either __Predict__ or __Predict All__ to get results.
 
 #### Python Classifiers
 
